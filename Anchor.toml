@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.testnet]
+solaname = "26qV3Re1eGnVgAPrnQNnAopBjaYCDCxdfvzn6N5Px5TX"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "testnet"
+wallet = "/home/cypher/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
