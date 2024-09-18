@@ -1,0 +1,14 @@
+[package]
+name = "gui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-client = "1.16.4"
+solana-sdk = "1.16.4"
+dotenv = "0.15"
+anchor-client = "0.27.0"
+
+[[bin]]
+name = "gui"
+path = "main.rs"
