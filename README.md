@@ -135,4 +135,4 @@ Check `create_user` interactions in solana explorer.
 
 ### To test start with Airdropping 1 SOL to your pubkey.
 
-![Airdrop](https://ibb.co/2PhcLDj)
+![Airdrop](images/airdrop.png)
